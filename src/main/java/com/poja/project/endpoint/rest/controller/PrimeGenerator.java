@@ -12,4 +12,9 @@ public class PrimeGenerator {
     public BigInteger primeGenerator(){
         return BigInteger.probablePrime(10000, new SecureRandom());
     }
+
+    @GetMapping("/pong")
+    public String pong(){
+        return "ping";
+    }
 }
