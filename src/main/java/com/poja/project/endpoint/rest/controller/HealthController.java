@@ -9,11 +9,7 @@ import com.poja.project.repository.DummyRepository;
 import com.poja.project.repository.DummyUuidRepository;
 import com.poja.project.repository.model.Dummy;
 import com.poja.project.repository.model.DummyUuid;
-
-import java.math.BigInteger;
 import java.util.List;
-import java.util.Random;
-
 import lombok.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
