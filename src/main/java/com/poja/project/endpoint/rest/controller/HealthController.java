@@ -47,9 +47,4 @@ public class HealthController {
     Thread.sleep(20_000);
     return dummyUuidRepository.findById(randomUuid).map(DummyUuid::getId).orElseThrow();
   }
-
-  @GetMapping("/new-prime")
-  public BigInteger newPrimeGenerator(){
-    return BigInteger.probablePrime(10000, new Random());
-  }
 }
