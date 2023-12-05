@@ -15,6 +15,6 @@ public class PrimeGenerator {
 
     @GetMapping("/pong")
     public String pong(){
-        return "ping";
+        return "pong";
     }
 }
